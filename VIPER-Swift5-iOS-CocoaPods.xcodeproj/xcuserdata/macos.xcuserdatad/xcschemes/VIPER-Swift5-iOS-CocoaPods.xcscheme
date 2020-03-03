@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22EF7994240DC295004679E1"
+               BuildableName = "VIPER-Swift5-iOS-CocoaPods.app"
+               BlueprintName = "VIPER-Swift5-iOS-CocoaPods"
+               ReferencedContainer = "container:VIPER-Swift5-iOS-CocoaPods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22EF79AB240DC297004679E1"
+               BuildableName = "VIPER-Swift5-iOS-CocoaPodsTests.xctest"
+               BlueprintName = "VIPER-Swift5-iOS-CocoaPodsTests"
+               ReferencedContainer = "container:VIPER-Swift5-iOS-CocoaPods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22EF79B6240DC297004679E1"
+               BuildableName = "VIPER-Swift5-iOS-CocoaPodsUITests.xctest"
+               BlueprintName = "VIPER-Swift5-iOS-CocoaPodsUITests"
+               ReferencedContainer = "container:VIPER-Swift5-iOS-CocoaPods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22EF7994240DC295004679E1"
+            BuildableName = "VIPER-Swift5-iOS-CocoaPods.app"
+            BlueprintName = "VIPER-Swift5-iOS-CocoaPods"
+            ReferencedContainer = "container:VIPER-Swift5-iOS-CocoaPods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22EF7994240DC295004679E1"
+            BuildableName = "VIPER-Swift5-iOS-CocoaPods.app"
+            BlueprintName = "VIPER-Swift5-iOS-CocoaPods"
+            ReferencedContainer = "container:VIPER-Swift5-iOS-CocoaPods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22EF7994240DC295004679E1"
+            BuildableName = "VIPER-Swift5-iOS-CocoaPods.app"
+            BlueprintName = "VIPER-Swift5-iOS-CocoaPods"
+            ReferencedContainer = "container:VIPER-Swift5-iOS-CocoaPods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

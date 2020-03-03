@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22EF7999240DC296004679E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7998240DC295004679E1 /* AppDelegate.swift */; };
+		22EF799B240DC296004679E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF799A240DC296004679E1 /* ViewController.swift */; };
+		22EF799E240DC296004679E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF799C240DC296004679E1 /* Main.storyboard */; };
+		22EF79A1240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22EF799F240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodeld */; };
+		22EF79A3240DC296004679E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EF79A2240DC296004679E1 /* Assets.xcassets */; };
+		22EF79A6240DC296004679E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF79A4240DC296004679E1 /* LaunchScreen.storyboard */; };
+		22EF79B1240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF79B0240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsTests.swift */; };
+		22EF79BC240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF79BB240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsUITests.swift */; };
+		22EF79F3240DDA76004679E1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF79F2240DDA76004679E1 /* View.swift */; settings = {ASSET_TAGS = (); }; };
+		22EF79F7240DDB66004679E1 /* Interator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF79F6240DDB66004679E1 /* Interator.swift */; settings = {ASSET_TAGS = (); }; };
+		22EF79F9240DDBCD004679E1 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF79F8240DDBCD004679E1 /* Presenter.swift */; settings = {ASSET_TAGS = (); }; };
+		22EF79FB240DDC13004679E1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF79FA240DDC13004679E1 /* Router.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22EF79AD240DC297004679E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22EF798D240DC295004679E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22EF7994240DC295004679E1;
+			remoteInfo = "VIPER-Swift5-iOS-CocoaPods";
+		};
+		22EF79B8240DC297004679E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22EF798D240DC295004679E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22EF7994240DC295004679E1;
+			remoteInfo = "VIPER-Swift5-iOS-CocoaPods";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22EF7995240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER-Swift5-iOS-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EF7998240DC295004679E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22EF799A240DC296004679E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22EF799D240DC296004679E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22EF79A0240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VIPER_Swift5_iOS_CocoaPods.xcdatamodel; sourceTree = "<group>"; };
+		22EF79A2240DC296004679E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22EF79A5240DC296004679E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22EF79A7240DC296004679E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EF79AC240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER-Swift5-iOS-CocoaPodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EF79B0240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_Swift5_iOS_CocoaPodsTests.swift; sourceTree = "<group>"; };
+		22EF79B2240DC297004679E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EF79B7240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER-Swift5-iOS-CocoaPodsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EF79BB240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_Swift5_iOS_CocoaPodsUITests.swift; sourceTree = "<group>"; };
+		22EF79BD240DC297004679E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EF79F2240DDA76004679E1 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		22EF79F6240DDB66004679E1 /* Interator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interator.swift; sourceTree = "<group>"; };
+		22EF79F8240DDBCD004679E1 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		22EF79FA240DDC13004679E1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22EF7992240DC295004679E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EF79A9240DC297004679E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EF79B4240DC297004679E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EF798C240DC295004679E1 = {
+			isa = PBXGroup;
+			children = (
+				22EF7997240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods */,
+				22EF79AF240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests */,
+				22EF79BA240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests */,
+				22EF7996240DC295004679E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22EF7996240DC295004679E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22EF7995240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods.app */,
+				22EF79AC240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests.xctest */,
+				22EF79B7240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22EF7997240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79C9240DC337004679E1 /* 1View */,
+				22EF79CA240DC357004679E1 /* 2Interator */,
+				22EF79CD240DC3BE004679E1 /* 3Presenter */,
+				22EF79CC240DC397004679E1 /* 4Entity */,
+				22EF79CB240DC37B004679E1 /* 5Router */,
+				22EF7998240DC295004679E1 /* AppDelegate.swift */,
+				22EF799A240DC296004679E1 /* ViewController.swift */,
+				22EF799C240DC296004679E1 /* Main.storyboard */,
+				22EF79A2240DC296004679E1 /* Assets.xcassets */,
+				22EF79A4240DC296004679E1 /* LaunchScreen.storyboard */,
+				22EF79A7240DC296004679E1 /* Info.plist */,
+				22EF799F240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodeld */,
+			);
+			path = "VIPER-Swift5-iOS-CocoaPods";
+			sourceTree = "<group>";
+		};
+		22EF79AF240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79B0240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsTests.swift */,
+				22EF79B2240DC297004679E1 /* Info.plist */,
+			);
+			path = "VIPER-Swift5-iOS-CocoaPodsTests";
+			sourceTree = "<group>";
+		};
+		22EF79BA240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79BB240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsUITests.swift */,
+				22EF79BD240DC297004679E1 /* Info.plist */,
+			);
+			path = "VIPER-Swift5-iOS-CocoaPodsUITests";
+			sourceTree = "<group>";
+		};
+		22EF79C9240DC337004679E1 /* 1View */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79F2240DDA76004679E1 /* View.swift */,
+			);
+			path = 1View;
+			sourceTree = "<group>";
+		};
+		22EF79CA240DC357004679E1 /* 2Interator */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79F6240DDB66004679E1 /* Interator.swift */,
+			);
+			path = 2Interator;
+			sourceTree = "<group>";
+		};
+		22EF79CB240DC37B004679E1 /* 5Router */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79FA240DDC13004679E1 /* Router.swift */,
+			);
+			path = 5Router;
+			sourceTree = "<group>";
+		};
+		22EF79CC240DC397004679E1 /* 4Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4Entity;
+			sourceTree = "<group>";
+		};
+		22EF79CD240DC3BE004679E1 /* 3Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				22EF79F8240DDBCD004679E1 /* Presenter.swift */,
+			);
+			path = 3Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22EF7994240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EF79C0240DC297004679E1 /* Build configuration list for PBXNativeTarget "VIPER-Swift5-iOS-CocoaPods" */;
+			buildPhases = (
+				22EF7991240DC295004679E1 /* Sources */,
+				22EF7992240DC295004679E1 /* Frameworks */,
+				22EF7993240DC295004679E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIPER-Swift5-iOS-CocoaPods";
+			productName = "VIPER-Swift5-iOS-CocoaPods";
+			productReference = 22EF7995240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22EF79AB240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EF79C3240DC297004679E1 /* Build configuration list for PBXNativeTarget "VIPER-Swift5-iOS-CocoaPodsTests" */;
+			buildPhases = (
+				22EF79A8240DC297004679E1 /* Sources */,
+				22EF79A9240DC297004679E1 /* Frameworks */,
+				22EF79AA240DC297004679E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22EF79AE240DC297004679E1 /* PBXTargetDependency */,
+			);
+			name = "VIPER-Swift5-iOS-CocoaPodsTests";
+			productName = "VIPER-Swift5-iOS-CocoaPodsTests";
+			productReference = 22EF79AC240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22EF79B6240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EF79C6240DC297004679E1 /* Build configuration list for PBXNativeTarget "VIPER-Swift5-iOS-CocoaPodsUITests" */;
+			buildPhases = (
+				22EF79B3240DC297004679E1 /* Sources */,
+				22EF79B4240DC297004679E1 /* Frameworks */,
+				22EF79B5240DC297004679E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22EF79B9240DC297004679E1 /* PBXTargetDependency */,
+			);
+			name = "VIPER-Swift5-iOS-CocoaPodsUITests";
+			productName = "VIPER-Swift5-iOS-CocoaPodsUITests";
+			productReference = 22EF79B7240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22EF798D240DC295004679E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = macOS;
+				TargetAttributes = {
+					22EF7994240DC295004679E1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					22EF79AB240DC297004679E1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 22EF7994240DC295004679E1;
+					};
+					22EF79B6240DC297004679E1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 22EF7994240DC295004679E1;
+					};
+				};
+			};
+			buildConfigurationList = 22EF7990240DC295004679E1 /* Build configuration list for PBXProject "VIPER-Swift5-iOS-CocoaPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22EF798C240DC295004679E1;
+			productRefGroup = 22EF7996240DC295004679E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EF7994240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods */,
+				22EF79AB240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsTests */,
+				22EF79B6240DC297004679E1 /* VIPER-Swift5-iOS-CocoaPodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22EF7993240DC295004679E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF79A6240DC296004679E1 /* LaunchScreen.storyboard in Resources */,
+				22EF79A3240DC296004679E1 /* Assets.xcassets in Resources */,
+				22EF799E240DC296004679E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EF79AA240DC297004679E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EF79B5240DC297004679E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EF7991240DC295004679E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF79F9240DDBCD004679E1 /* Presenter.swift in Sources */,
+				22EF799B240DC296004679E1 /* ViewController.swift in Sources */,
+				22EF79F7240DDB66004679E1 /* Interator.swift in Sources */,
+				22EF79FB240DDC13004679E1 /* Router.swift in Sources */,
+				22EF79F3240DDA76004679E1 /* View.swift in Sources */,
+				22EF79A1240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodeld in Sources */,
+				22EF7999240DC296004679E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EF79A8240DC297004679E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF79B1240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22EF79B3240DC297004679E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF79BC240DC297004679E1 /* VIPER_Swift5_iOS_CocoaPodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22EF79AE240DC297004679E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22EF7994240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods */;
+			targetProxy = 22EF79AD240DC297004679E1 /* PBXContainerItemProxy */;
+		};
+		22EF79B9240DC297004679E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22EF7994240DC295004679E1 /* VIPER-Swift5-iOS-CocoaPods */;
+			targetProxy = 22EF79B8240DC297004679E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22EF799C240DC296004679E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EF799D240DC296004679E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22EF79A4240DC296004679E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EF79A5240DC296004679E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22EF79BE240DC297004679E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22EF79BF240DC297004679E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22EF79C1240DC297004679E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIPER-Swift5-iOS-CocoaPods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.VIPER-Swift5-iOS-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22EF79C2240DC297004679E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VIPER-Swift5-iOS-CocoaPods/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.VIPER-Swift5-iOS-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22EF79C4240DC297004679E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIPER-Swift5-iOS-CocoaPodsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.VIPER-Swift5-iOS-CocoaPodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER-Swift5-iOS-CocoaPods.app/VIPER-Swift5-iOS-CocoaPods";
+			};
+			name = Debug;
+		};
+		22EF79C5240DC297004679E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VIPER-Swift5-iOS-CocoaPodsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.VIPER-Swift5-iOS-CocoaPodsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER-Swift5-iOS-CocoaPods.app/VIPER-Swift5-iOS-CocoaPods";
+			};
+			name = Release;
+		};
+		22EF79C7240DC297004679E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VIPER-Swift5-iOS-CocoaPodsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.VIPER-Swift5-iOS-CocoaPodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VIPER-Swift5-iOS-CocoaPods";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		22EF79C8240DC297004679E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VIPER-Swift5-iOS-CocoaPodsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.VIPER-Swift5-iOS-CocoaPodsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VIPER-Swift5-iOS-CocoaPods";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22EF7990240DC295004679E1 /* Build configuration list for PBXProject "VIPER-Swift5-iOS-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EF79BE240DC297004679E1 /* Debug */,
+				22EF79BF240DC297004679E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EF79C0240DC297004679E1 /* Build configuration list for PBXNativeTarget "VIPER-Swift5-iOS-CocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EF79C1240DC297004679E1 /* Debug */,
+				22EF79C2240DC297004679E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EF79C3240DC297004679E1 /* Build configuration list for PBXNativeTarget "VIPER-Swift5-iOS-CocoaPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EF79C4240DC297004679E1 /* Debug */,
+				22EF79C5240DC297004679E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EF79C6240DC297004679E1 /* Build configuration list for PBXNativeTarget "VIPER-Swift5-iOS-CocoaPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EF79C7240DC297004679E1 /* Debug */,
+				22EF79C8240DC297004679E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22EF799F240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22EF79A0240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodel */,
+			);
+			currentVersion = 22EF79A0240DC296004679E1 /* VIPER_Swift5_iOS_CocoaPods.xcdatamodel */;
+			path = VIPER_Swift5_iOS_CocoaPods.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22EF798D240DC295004679E1 /* Project object */;
+}
