@@ -2,7 +2,7 @@
 
 #How to create a XCode folder as file system to see on github / bitbucket / gitlab structure done by Hamilton iOS engineer
 
-*** Create Folder - Show in Finder ***
+#Create Folder - Show in Finder
 - There is a Blue colored folder icon on top named as your XCode project name
 - And below (Blue colored folder icon) there is a Yellow colored folder icon named also as your XCode project name
 - in Yellow folder, RIGHT Click mouse and select "Show in Finder"
@@ -10,10 +10,23 @@
 ![iOS XCode 7 screenshoot](https://github.com/enghamilton/VIPER-Swift5-iOS-Cocoapods/blob/master/Screenshoots/Captura%20de%20Tela%202020-03-02%20%C3%A0s%2016.39.28%20Tutorial.png)
 Format: ![Alt Text](https://github.com/enghamilton/VIPER-Swift5-iOS-Cocoapods/blob/master/Screenshoots/Captura%20de%20Tela%202020-03-02%20%C3%A0s%2016.39.28%20Tutorial.png)
 
-Follow image capture a XCode 7 screenshoot Storyboard Scenes. done by Hamilton.
 
-![iOS XCode 7 screenshoot](https://github.com/enghamilton/0MVC-Swift2-iOS/blob/master/Captura%20de%20Tela%202019-11-29%20%C3%A0s%2001.02.57.png)
-Format: ![Alt Text](url)
+#Drag and Drop Folder
+- Inside "Show in Finder Windows Pop Upped" create a New Folder
+- Drag new folder insided "Show in Finder" to drop inside the XCode below the Yellow Folder
+
+#Adding a new File (inside dropped new folder under XCode)
+- Dropped new one folder, now you already have a file system when you open "Finder"
+- Include a new File (example : ViewController.swift), by RIGHT Click mouse button on the newed dropped Folder
+- Name you folder and click Finish
+
+#Group Folder (Reference and Local Path)
+- 
+
+
+
+# DONE !
+
 
 First Header | Second Header
 ------------ | -------------
