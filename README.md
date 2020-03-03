@@ -2,7 +2,9 @@
 
 #How to create a XCode folder as file system to see on github / bitbucket / gitlab structure done by Hamilton iOS engineer
 
-###Create Folder - Show in Finder
+###Create Folder - _Show in Finder_
+# This is an <h1> tag
+# This is an <h1> tag
 - There is a Blue colored folder icon on top named as your XCode project name
 - And below (Blue colored folder icon) there is a Yellow colored folder icon named also as your XCode project name
 - in Yellow folder, RIGHT Click mouse and select "Show in Finder"
